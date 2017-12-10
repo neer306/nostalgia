@@ -1,0 +1,7 @@
+<div class="header">
+    <div class="header__block-select">
+        <select class="header__select" [(ngModel)]="current_year" (change)="onChange($event)">
+            <option *ngFor="let year of years">{{ year }}</option>
+        </select>
+    </div>
+</div>
