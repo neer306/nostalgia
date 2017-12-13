@@ -1,4 +1,9 @@
 <div class="content__container">
-    {{current_year}}
-    <app-content-item-preview *ngFor="let item of content_items" [data]="item"></app-content-item-preview>
+    <div class="row">
+        {{current_year}}
+
+    </div>
+    <div class="content__column">
+        <app-content-preview *ngFor="let item of content_items" [data]="item"></app-content-preview>
+    </div>
 </div>

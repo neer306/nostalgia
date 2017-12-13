@@ -8,7 +8,7 @@ import { CONTENT_LIST } from '../content_list';
 })
 
 
-export class ContentComponent implements OnInit {
+export class ContentComponent implements OnInit, OnChanges {
     @Input('current_year') current_year: number;
     content_items = [];
 

@@ -1,0 +1,23 @@
+.content-preview {
+    display: inline-block;
+    position: relative;
+
+    margin: 0 2px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    border: solid 1px #d1d1d1;
+    column-break-inside: avoid;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.content-preview__title {
+    font-size: 18px;
+    margin: 0 15px;
+    line-height: 2;
+}
+
+.content-preview__picture {
+    width: 100%;
+}

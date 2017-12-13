@@ -4,3 +4,9 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.content__column {
+    column-count: 3;
+    column-gap: 30px;
+    column-fill: auto;
+}
